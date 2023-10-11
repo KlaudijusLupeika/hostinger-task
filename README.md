@@ -99,12 +99,15 @@ Write automated test for this flow:
       5. Account credentials are already populated in appropriate fields without removing placeholders;
 
     - Expected Behavior:
+
       Account credentials should be populated and placeholders removed;
 
     - Actual Behavior:
+
       Account credentials populated and placeholders remain;
 
     - Screenshots/Attachments:
+
       ![Placeholder issue](https://i.ibb.co/1bV62L7/placeholder.png)
 
     Impact:
@@ -135,20 +138,25 @@ Write automated test for this flow:
 
     Bug Description:
     - Summary:
+
       After successfully logging in and changing the language in the top menu bar, the hover tips are either not translated or showing previous language content.
 
     - Steps to Reproduce:
+
       1. Log in to hPanel (https://www.hostinger.com/cpanel-login);
       2. Change language to any other;
       3. Hover tips are in previous language or not translated for current one;
 
     - Expected Behavior:
+
       Hover tips should be translated to current selected language;
 
     - Actual Behavior:
+
       Hover tips not translated to currrent language unless page refreshed;
 
     - Screenshots/Attachments:
+    
       ![Translations issue](https://s6.gifyu.com/images/S6loN.gif)
 
     Impact:
