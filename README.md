@@ -180,6 +180,10 @@ Write automated test for this flow:
  - Accept;
 
 ## 3. Test automation task
+> [!NOTE]
+> This automation script uses env variables which include sensitive data and are not shared.
+> To successfully run the test, please pass in env variables during run time or create .env file with EMAIL and PASS values.
+
 
 To start:
 
