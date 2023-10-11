@@ -44,20 +44,28 @@ Write automated test for this flow:
  - 1.1.1 hPanel accessibility:
 
  User Registration: Ensure a seamless and secure process for users to create an account and access the hPanel dashboard.
+
  User Login: Ensure user is able to login using email or any social provider.
 
  - 1.1.2 Services management:
 
  Domain Registration and Transfer: Verify that users can easily register new domains and transfer existing ones.
+
  Website Creation: Test the process of creating a new website using Hostinger website builder or installing a content management system (CMS).
+
  File Management: Ensure users can upload, download, and manage their website files through FTP or a file manager.
+
  Hosting Plans Selection: Confirm that users can choose and purchase hosting plans such as shared hosting or VPS.
+
  Server Management: Ensure users can manage their VPS or cloud servers efficiently, including scaling, rebooting, and server configuration.
 
  - 1.1.3 Account settings:
- Account Profile: Verify that users can update their personal information and account preferences.
- Password Management: Test the process of changing and recovering passwords.
- Billing and Payments: Verify users are able to see the billing statements as well as set up payment methods.
+
+  - Account Profile: Verify that users can update their personal information and account preferences.
+
+  - Password Management: Test the process of changing and recovering passwords.
+
+  - Billing and Payments: Verify users are able to see the billing statements as well as set up payment methods.
 
 
 ### 1.2 Find at least 2-3 bugs and report them (choose the way of reporting by yourself).
@@ -65,89 +73,93 @@ Write automated test for this flow:
  - 1.2.1 Overlapping placeholder and saved account values.
  
  <blockquote>
-    **Bug Title:**
+
+    Bug Title:
     Account saved values are placed on top of placeholders.
 
-    **Date:**
+    Date:
     2023-10-11
 
-    **Reported By:**
+    Reported By:
     Klaudijus Lupeika
 
-    **Product/Service:**
+    Product/Service:
     hPanel
 
-    **Browser/Environment:**
+    Browser/Environment:
     Google Chrome (117.0.5938.150) / Production
 
-    **Bug Description:**
-    - **Summary:**
+    Bug Description:
+    - Summary:
      - After successfully logging in and saving the account credentials to account manager (Chrome), the very next time we try to log in, the values appear on top of placeholders leading to poor UX.
 
-    - **Steps to Reproduce:**
+    - Steps to Reproduce:
      - 1. Clear browser cache;
      - 2. Log in to hPanel (https://www.hostinger.com/cpanel-login) and save credentials to Chrome Account manager;
      - 3. Log out;
      - 4. Navigate to https://www.hostinger.com/cpanel-login;
      - 5. Account credentials are already populated in appropriate fields without removing placeholders;
 
-    - **Expected Behavior:**
+    - Expected Behavior:
      - Account credentials should be populated and placeholders removed;
 
-    - **Actual Behavior:**
+    - Actual Behavior:
      - Account credentials populated and placeholders remain;
 
-    - **Screenshots/Attachments:** 
+    - Screenshots/Attachments:
      - ![Placeholder issue](https://i.ibb.co/1bV62L7/placeholder.png)
 
-    **Impact:**
+    Impact:
     Minor
 
-    **Priority:**
+    Priority:
     Low
+
  </blockquote>
 
  - 1.2.2 After languange change, hover tips showing previous language content.
  
  <blockquote>
-    **Bug Title:**
+
+    Bug Title:
     After languange change, hover tips showing previous language content.
 
-    **Date:**
+    Date:
     2023-10-11
 
-    **Reported By:**
+    Reported By:
     Klaudijus Lupeika
 
-    **Product/Service:**
+    Product/Service:
     hPanel
 
-    **Browser/Environment:**
+    Browser/Environment:
     Google Chrome (117.0.5938.150) / Production
 
-    **Bug Description:**
-    - **Summary:**
+    Bug Description:
+    - Summary:
      - After successfully logging in and changing the language in the top menu bar, the hover tips are either not translated or showing previous language content.
 
-    - **Steps to Reproduce:**
+    - Steps to Reproduce:
      - 1. Log in to hPanel (https://www.hostinger.com/cpanel-login);
      - 2. Change language to any other;
      - 3. Hover tips are in previous language or not translated for current one;
 
-    - **Expected Behavior:**
+    - Expected Behavior:
      - Hover tips should be translated to current selected language;
 
-    - **Actual Behavior:**
+    - Actual Behavior:
      - Hover tips not translated to currrent language unless page refreshed;
 
-    - **Screenshots/Attachments:** 
+    - Screenshots/Attachments:
      - ![Translations issue](https://s6.gifyu.com/images/S6loN.gif)
 
-    **Impact:**
+    Impact:
     Minor
 
-    **Priority:**
+    Priority:
     Low
+    
  </blockquote>
 
 ## 2. API testing task
