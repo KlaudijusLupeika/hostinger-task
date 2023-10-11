@@ -72,8 +72,6 @@ Write automated test for this flow:
 
  - 1.2.1 Overlapping placeholder and saved account values.
  
- <blockquote>
-
     Bug Title:
     Account saved values are placed on top of placeholders.
 
@@ -115,11 +113,10 @@ Write automated test for this flow:
     Priority:
     Low
 
- </blockquote>
+
 
  - 1.2.2 After languange change, hover tips showing previous language content.
  
- <blockquote>
 
     Bug Title:
     After languange change, hover tips showing previous language content.
@@ -159,8 +156,8 @@ Write automated test for this flow:
 
     Priority:
     Low
-    
- </blockquote>
+
+
 
 ## 2. API testing task
 
