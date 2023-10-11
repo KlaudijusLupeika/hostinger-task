@@ -181,9 +181,7 @@ Write automated test for this flow:
 
 ## 3. Test automation task
 > [!NOTE]
-> This automation script use env variables which include sensitive data and are not shared.
-
-> To successfully run the test, please pass in env variables during run time or create .env file with EMAIL and PASS values.
+> This automation script use env variables which include sensitive data and are not shared. To successfully run the test, please pass in env variables during run time or create .env file with EMAIL and PASS values.
 
 
 To start:
