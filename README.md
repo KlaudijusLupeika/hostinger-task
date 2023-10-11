@@ -61,11 +61,11 @@ Write automated test for this flow:
 
  - 1.1.3 Account settings:
 
-  - Account Profile: Verify that users can update their personal information and account preferences.
+  Account Profile: Verify that users can update their personal information and account preferences.
 
-  - Password Management: Test the process of changing and recovering passwords.
+  Password Management: Test the process of changing and recovering passwords.
 
-  - Billing and Payments: Verify users are able to see the billing statements as well as set up payment methods.
+  Billing and Payments: Verify users are able to see the billing statements as well as set up payment methods.
 
 
 ### 1.2 Find at least 2-3 bugs and report them (choose the way of reporting by yourself).
