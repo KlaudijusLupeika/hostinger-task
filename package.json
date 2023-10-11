@@ -1,0 +1,23 @@
+{
+  "name": "hostinger-task",
+  "version": "1.0.0",
+  "description": "Go and explore our product at hostinger.com (credentials to login will be provided separately).",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "hostinger-task"
+  },
+  "author": "K L",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "playwright": "^1.38.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.38.1",
+    "@types/node": "^20.8.4"
+  }
+}
