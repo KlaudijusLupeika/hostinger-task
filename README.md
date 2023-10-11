@@ -89,23 +89,23 @@ Write automated test for this flow:
 
     Bug Description:
     - Summary:
-     - After successfully logging in and saving the account credentials to account manager (Chrome), the very next time we try to log in, the values appear on top of placeholders leading to poor UX.
+      After successfully logging in and saving the account credentials to account manager (Chrome), the very next time we try to log in, the values appear on top of placeholders leading to poor UX.
 
     - Steps to Reproduce:
-     - 1. Clear browser cache;
-     - 2. Log in to hPanel (https://www.hostinger.com/cpanel-login) and save credentials to Chrome Account manager;
-     - 3. Log out;
-     - 4. Navigate to https://www.hostinger.com/cpanel-login;
-     - 5. Account credentials are already populated in appropriate fields without removing placeholders;
+      1. Clear browser cache;
+      2. Log in to hPanel (https://www.hostinger.com/cpanel-login) and save credentials to Chrome Account manager;
+      3. Log out;
+      4. Navigate to https://www.hostinger.com/cpanel-login;
+      5. Account credentials are already populated in appropriate fields without removing placeholders;
 
     - Expected Behavior:
-     - Account credentials should be populated and placeholders removed;
+      Account credentials should be populated and placeholders removed;
 
     - Actual Behavior:
-     - Account credentials populated and placeholders remain;
+      Account credentials populated and placeholders remain;
 
     - Screenshots/Attachments:
-     - ![Placeholder issue](https://i.ibb.co/1bV62L7/placeholder.png)
+      ![Placeholder issue](https://i.ibb.co/1bV62L7/placeholder.png)
 
     Impact:
     Minor
@@ -135,21 +135,21 @@ Write automated test for this flow:
 
     Bug Description:
     - Summary:
-     - After successfully logging in and changing the language in the top menu bar, the hover tips are either not translated or showing previous language content.
+      After successfully logging in and changing the language in the top menu bar, the hover tips are either not translated or showing previous language content.
 
     - Steps to Reproduce:
-     - 1. Log in to hPanel (https://www.hostinger.com/cpanel-login);
-     - 2. Change language to any other;
-     - 3. Hover tips are in previous language or not translated for current one;
+      1. Log in to hPanel (https://www.hostinger.com/cpanel-login);
+      2. Change language to any other;
+      3. Hover tips are in previous language or not translated for current one;
 
     - Expected Behavior:
-     - Hover tips should be translated to current selected language;
+      Hover tips should be translated to current selected language;
 
     - Actual Behavior:
-     - Hover tips not translated to currrent language unless page refreshed;
+      Hover tips not translated to currrent language unless page refreshed;
 
     - Screenshots/Attachments:
-     - ![Translations issue](https://s6.gifyu.com/images/S6loN.gif)
+      ![Translations issue](https://s6.gifyu.com/images/S6loN.gif)
 
     Impact:
     Minor
